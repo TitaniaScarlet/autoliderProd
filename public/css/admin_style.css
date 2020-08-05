@@ -1,0 +1,58 @@
+.pics {
+  display: inline-block;
+  background-color: #000;
+}
+.image {
+  display: inline-block;
+  width: 160px;
+  height: 120px;
+}
+
+.image-checkbox {
+  display: none;
+}
+
+input + label.image-label{
+  display: block;
+  width: 160px;
+  height: 120px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  background-image: url('/storage/');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+input:checked.image-checkbox + label {
+
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(10,10,10,.9);
+  background-size: auto;
+   z-index: 99999;
+}
+
+a {
+  color: #333;
+}
+
+.btn-parameter{
+  color: #333;
+}
+.btn-like {
+  color: #2485c9;
+}
+
+/* :active,  :hover, :focus {
+  color: #333;
+  text-decoration: underline;
+} */
+.btn-parameter-active {
+    color: #2485c9
+}

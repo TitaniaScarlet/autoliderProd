@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Host: https://autoliderbrest.by
+Sitemap: https://autoliderbrest.by/sitemap.xml
